@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+body{
+    background-color:#F2C8A2;
+  }
+  .navbar{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+}
+.mynav a{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+.mynav li:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav ul li a{
+    line-height: 5em;
+    padding: 1em 3em;
+    margin-right: 30px;
+}
+.logo{
+    /* CMG */
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+color: #D94032;
+list-style: none;
+}
+.about{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #FFFEFE;
+background: #D94032;
+border-radius: 5px;
+}
+.about:hover{
+    text-decoration: underline;
+}
+.about-box{
+background: #D94032;
+border-radius: 5px;
+width: 187px;
+height: 65px;
+}
+.text{
+    width: 600px;
+height: 250px;
+background: #F2935C;
+border: 9px solid #F2935C;
+border-radius: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+color: #FFFEFE;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+}
+@media (max-width:900px){
+    html{max-width: 900px;}
+}
+@media (max-height:1440px){
+    body{height: 1440px;}
+}

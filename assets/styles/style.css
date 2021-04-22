@@ -1,0 +1,212 @@
+html{
+    height: 100%;
+}
+body{
+    background-color:#F2C8A2;
+  }
+.mynav ul{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+}
+.mynav a{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+.mynav li:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav ul li a{
+    line-height: 5em;
+    padding: 1em 3em;
+    margin-right: 30px;
+}
+.logo{
+    /* CMG */
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+color: #D94032;
+list-style: none;
+}
+.about{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #FFFEFE;
+background: #D94032;
+border-radius: 5px;
+}
+.about:hover{
+    text-decoration: underline;
+}
+.about-box{
+background: #D94032;
+border-radius: 5px;
+width: 187px;
+height: 65px;
+}
+.big-box {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+color: #FFFEFE;
+}
+#container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+}
+.wel{
+width: 371px;
+height: 271px;
+background: #F2935C;
+border: 9px solid #F2935C;
+border-radius: 5px;
+/* Chelsea’s Zoom Uni Tuesday */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #FFFEFE;
+margin-top:30%
+}
+.zoom,.wel{
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.zoom{
+    text-align: center;
+}
+.cal{
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.tue{
+    /* TUE */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #397D92;
+}
+.six{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    width: 46px;
+    height: 46px;
+    left: 704px;
+    top: 154px;
+    background: #0C2C40;
+    border-radius: 360px;
+}
+.econ{
+    /* Rectangle 1 */
+width: 146px;
+height: 119px;
+background: #397D92;
+border-radius: 5px;
+color:#FFFEFE;
+}
+.econ:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.grocery{
+    width: 146px;
+    height: 46px;
+    background: #F2935C;
+    border-radius: 5px;
+}
+.grocery:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.bake{
+width: 146px;
+height: 46px;
+background: #D94032;
+border-radius: 5px;
+}
+.bake:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.tue,.six,.econ,.grocery,.bake{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.todo{
+width: 371px;
+height: 271px;
+background: #397D92;
+border: 9px solid #397D92;
+border-radius: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:30%;
+}
+.list{
+    font-size: 28px;
+}
+.econtext{
+    text-decoration: none;
+    color:#FFFEFE;
+}
+.econtext:hover{
+    color: #0C2C40;
+    cursor: pointer;
+}
+.grotext{
+    text-decoration: none;
+    color:#FFFEFE;
+}
+.grotext:hover{
+    color: #0C2C40;
+    cursor: pointer;
+}
+.baketxt{
+    text-decoration: none;
+    color:#FFFEFE;
+}
+.baketxt:hover{
+    color: #0C2C40;
+    cursor: pointer;
+}
+@media (max-width:900px){
+    body{width: 900px;}
+}
+@media (max-height:1440px){
+    body{height: 1440px;}
+}

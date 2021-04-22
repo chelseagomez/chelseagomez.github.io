@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+body{
+    background-color:#F2C8A2;
+  }
+  .navbar{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	list-style: none;
+}
+.mynav a{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+.mynav li:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav ul li a{
+    line-height: 5em;
+    padding: 1em 3em;
+    margin-right: 30px;
+}
+.logo{
+    /* CMG */
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+color: #D94032;
+list-style: none;
+}
+.about{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #FFFEFE;
+background: #D94032;
+border-radius: 5px;
+}
+.about:hover{
+    text-decoration: underline;
+}
+.about-box{
+background: #D94032;
+border-radius: 5px;
+width: 187px;
+height: 65px;
+}
+
+
+.mid{
+    width: 612px;
+    height: 612px;
+    background: #D94032;
+    border-radius: 360px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+.dir{
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #FFFEFE;
+margin-bottom: 5%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ans{
+        list-style: none;
+        padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+    }
+
+.frosting:active{
+    animation:round;
+	animation-duration: 0.15s;
+	animation-iteration-count:infinite;
+}
+@keyframes round{
+	from {
+		transform: rotate(0);
+	  }
+	  to {
+		transform: rotate(360deg);
+	  }
+	}
+.frosting:hover{
+    transform: scale(1.03);
+}
+@media (max-width:900px){
+    body{width: 900px;}
+}
+@media (max-height:1440px){
+    body{height: 1440px;}
+}
